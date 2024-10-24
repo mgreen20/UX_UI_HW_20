@@ -1,0 +1,418 @@
+
+#navigate{
+    background-color: #3284BF;
+    justify-content: center;
+}
+#sqLogo{
+    width: 300px;
+}
+
+#homenavlink{
+    color: #004C54;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+}
+#homenavlink:hover{
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+#homenavlink:active{
+    text-decoration: underline;
+    font-size: 30px;
+}
+.navbar{
+    background-color: #004C54;
+    color: #ACC0C6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sqMenu{
+    position: sticky; top: 0;
+}
+#video{
+    display: flex;
+    max-height: 650px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    clip-path: fill-box;
+    outline: none;
+}
+
+#examples{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5%;
+    text-align: center;
+}
+.gif{
+    max-width: 100%;
+    height: auto;  
+    padding: 0px;
+    margin: 0px;  
+}
+
+#hamburger{
+    background-color: #3284BF;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    position: sticky; top: 0;
+    z-index: 3;
+}
+
+#hamicon{
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 80%;
+}
+#homeNavbar{
+    color: #004C54;
+    width: 600px;
+    font-size: 36px;
+    padding: 0px;
+    margin: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+.nav{
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+}
+
+#container{
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.roboto-medium {
+    font-family: "Roboto", system-ui;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.line{
+    width:600px;
+    display: inline block;
+    border: 1px solid #004C54;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    }
+
+.gif{
+    float: left;
+}
+
+.gifr{
+    float: right;
+    display: flex;
+}
+body{
+    background-color: white;
+}
+
+#work{
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer{
+    background-color: #004C54;
+    height: 40px;
+    display: flex;
+    max-width: 1440px;
+    text-align: center;
+    vertical-align: top;
+    overflow: hidden;
+    clear: both;
+    
+}
+
+.foot{
+    font-size: 24px;
+    color: #A5ACAF;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+#logo{
+    height:100px;
+    padding-left: 5px;
+    padding-top: 19px;   
+    margin-top: -17px;
+}
+
+#footerList{
+    float: left;
+    color: #A5ACAF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+#bio{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+
+#words{
+    float:left;
+}
+
+#image{
+    float: right;
+    display: flex;
+    object-fit: cover;
+}
+
+    
+#profilepic{
+    float: right;
+    padding-top: 0px;
+    max-width: fit-content;    
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    #homenavlink{
+        font-size: 20px;
+    }
+}
+
+#aboutMe{
+    display: flex;
+    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
+}
+
+#portrait{
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+#words{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#hello{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#uxskills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1300px;
+    
+}
+
+#skills{
+    display: flex;
+    max-width: 1000px;
+    align-self: center;
+    margin: auto;
+    width: 100%;
+}
+#mine{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#research{
+    margin-top: 20px;
+}
+
+#userResearch{
+    display: flex;
+    max-width: 1440px;
+    align-self: center;
+    margin: auto;
+    width: 100%;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+#contactMe{
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#methods{
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    width: 80%;
+    align-content: center;
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 20%;
+    
+}
+
+#left{
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+#email{
+    display: flex;
+   
+}
+
+#linked{
+    display: flex;
+    padding-top: 20%;   
+}
+
+#resume{
+    align-content: center;
+    position: relative;
+    display: inline-block;
+    clear: both;
+    width: 50%;
+    margin-left: 60%;  
+}
+
+#dwnResume{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    width: 200px;
+    color: #f2f5f5;
+    background-color: #004C54;
+    border-radius: 7px;
+    animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      box-shadow: 0 0 5px -5px #3284BF;
+    }
+    to {
+      box-shadow: 0 0 5px 5px #3284BF;
+    }
+  }
+
+  @keyframes unglow {
+    from {
+      box-shadow: 0 0 0px -0px #3284BF;
+    }
+    to {
+      box-shadow: 0 0 0px 0px #3284BF;
+    }
+  }
+#dwnResume:hover{
+    color: #f2f5f5;
+    background-color: #3284BF;
+    border-color: #004C54;
+    box-shadow: 0px 0px 10px 5px #ACC0C6;
+    animation: unglow;    
+}
+
+#dwnResume:active{
+    transform: scale(.8);
+    animation: unglow;
+    
+}
+
+.dropdown-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: #3284BF;
+}
+
+#left:active, #right:active{
+    transform: scale(.8);
+}
+
+.wrapper {
+    display: block;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* top layer */
+    z-index: 9999;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    /* full screen */
+    width: 100vw;
+    height: 100vh;
+    /* transparent black */
+    background: rgba(0, 0, 0, 0.7);
+    /* middle layer, i.e. appears below the sidebar */
+    z-index: 998;
+    opacity: 0;
+    /* animate the transition */
+    transition: all 0.5s ease-in-out;
+}
+/* display .overlay when it has the .active class */
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    /* top right corner of the sidebar */
+    top: 10px;
+    right: 10px;
+}
